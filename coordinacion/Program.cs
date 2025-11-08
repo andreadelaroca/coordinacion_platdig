@@ -39,8 +39,16 @@ class Program
 
 	static void Main()
 	{
-		Console.WriteLine("Catálogo de Cursos - Estructura de datos definida (tarea 1 completada)");
-		Console.WriteLine("Se definió el record Course y se rellenó el catálogo en memoria.");
-		Console.WriteLine("Abra el archivo Program.cs para ver la definición y los comentarios.");
+		// Implementación de la tarea solicitada: mostrar un listado estático (3-5) de cursos de ejemplo.
+		Console.WriteLine("Catálogo de Cursos - Listado estático (demo)");
+		Console.WriteLine();
+		// Mostramos los primeros 5 cursos como ejemplo visible.
+		foreach (var c in Courses.Take(5))
+		{
+			Console.WriteLine($"[{c.Id}] {c.Name} — {c.Area} — {c.DurationHours}h — {c.Level}");
+		}
+		Console.WriteLine();
+		Console.WriteLine("Presione Enter para salir...");
+		Console.ReadLine();
 	}
 }
