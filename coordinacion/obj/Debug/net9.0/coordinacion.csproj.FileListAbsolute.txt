@@ -1,0 +1,15 @@
+c:\Users\minit\OneDrive\Desktop\IIS\PLATDIG\coordinacion\coordinacion\bin\Debug\net9.0\coordinacion.exe
+c:\Users\minit\OneDrive\Desktop\IIS\PLATDIG\coordinacion\coordinacion\bin\Debug\net9.0\coordinacion.deps.json
+c:\Users\minit\OneDrive\Desktop\IIS\PLATDIG\coordinacion\coordinacion\bin\Debug\net9.0\coordinacion.runtimeconfig.json
+c:\Users\minit\OneDrive\Desktop\IIS\PLATDIG\coordinacion\coordinacion\bin\Debug\net9.0\coordinacion.dll
+c:\Users\minit\OneDrive\Desktop\IIS\PLATDIG\coordinacion\coordinacion\bin\Debug\net9.0\coordinacion.pdb
+c:\Users\minit\OneDrive\Desktop\IIS\PLATDIG\coordinacion\coordinacion\obj\Debug\net9.0\coordinacion.GeneratedMSBuildEditorConfig.editorconfig
+c:\Users\minit\OneDrive\Desktop\IIS\PLATDIG\coordinacion\coordinacion\obj\Debug\net9.0\coordinacion.AssemblyInfoInputs.cache
+c:\Users\minit\OneDrive\Desktop\IIS\PLATDIG\coordinacion\coordinacion\obj\Debug\net9.0\coordinacion.AssemblyInfo.cs
+c:\Users\minit\OneDrive\Desktop\IIS\PLATDIG\coordinacion\coordinacion\obj\Debug\net9.0\coordinacion.csproj.CoreCompileInputs.cache
+c:\Users\minit\OneDrive\Desktop\IIS\PLATDIG\coordinacion\coordinacion\obj\Debug\net9.0\coordinacion.sourcelink.json
+c:\Users\minit\OneDrive\Desktop\IIS\PLATDIG\coordinacion\coordinacion\obj\Debug\net9.0\coordinacion.dll
+c:\Users\minit\OneDrive\Desktop\IIS\PLATDIG\coordinacion\coordinacion\obj\Debug\net9.0\refint\coordinacion.dll
+c:\Users\minit\OneDrive\Desktop\IIS\PLATDIG\coordinacion\coordinacion\obj\Debug\net9.0\coordinacion.pdb
+c:\Users\minit\OneDrive\Desktop\IIS\PLATDIG\coordinacion\coordinacion\obj\Debug\net9.0\coordinacion.genruntimeconfig.cache
+c:\Users\minit\OneDrive\Desktop\IIS\PLATDIG\coordinacion\coordinacion\obj\Debug\net9.0\ref\coordinacion.dll

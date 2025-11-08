@@ -1,6 +1,6 @@
-## Coordinación de cursos
+# Coordinación de cursos
 
-# Integrantes
+## Integrantes
 - Andrea Sofía de la Roca Delgado
 - Maria Alejandra Sarante Salinas
 - Luis Lenin Aguirre Vilchez
