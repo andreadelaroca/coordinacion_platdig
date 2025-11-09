@@ -8,24 +8,19 @@
     "net9.0": []
   },
   "packageFolders": {
-    "C:\\Users\\minit\\.nuget\\packages\\": {},
-    "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
+    "C:\\Users\\USER\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\minit\\OneDrive\\Desktop\\IIS\\PLATDIG\\coordinacion\\coordinacion\\coordinacion.csproj",
+      "projectUniqueName": "c:\\Users\\USER\\Desktop\\coordinacion_platdig\\coordinacion\\coordinacion.csproj",
       "projectName": "coordinacion",
-      "projectPath": "C:\\Users\\minit\\OneDrive\\Desktop\\IIS\\PLATDIG\\coordinacion\\coordinacion\\coordinacion.csproj",
-      "packagesPath": "C:\\Users\\minit\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\minit\\OneDrive\\Desktop\\IIS\\PLATDIG\\coordinacion\\coordinacion\\obj\\",
+      "projectPath": "c:\\Users\\USER\\Desktop\\coordinacion_platdig\\coordinacion\\coordinacion.csproj",
+      "packagesPath": "C:\\Users\\USER\\.nuget\\packages\\",
+      "outputPath": "c:\\Users\\USER\\Desktop\\coordinacion_platdig\\coordinacion\\obj\\",
       "projectStyle": "PackageReference",
-      "fallbackFolders": [
-        "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
-      ],
       "configFilePaths": [
-        "C:\\Users\\minit\\AppData\\Roaming\\NuGet\\NuGet.Config",
-        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+        "C:\\Users\\USER\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -72,7 +67,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.305/PortableRuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.306/PortableRuntimeIdentifierGraph.json"
       }
     }
   }
