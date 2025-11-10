@@ -39,16 +39,45 @@ class Program
 
 	static void Main()
 	{
-		// Implementación de la tarea solicitada: mostrar un listado estático (3-5) de cursos de ejemplo.
-		Console.WriteLine("Catálogo de Cursos - Listado estático (demo)");
+		// Implementación interactiva: listado estático + búsqueda por palabra clave
+		Console.WriteLine("Catálogo de Cursos - Demo interactivo");
 		Console.WriteLine();
-		// Mostramos los primeros 5 cursos como ejemplo visible.
+		// Mostramos un pequeño muestreo inicial (primeros 5)
+		Console.WriteLine("Muestreo de cursos:");
 		foreach (var c in Courses.Take(5))
 		{
 			Console.WriteLine($"[{c.Id}] {c.Name} — {c.Area} — {c.DurationHours}h — {c.Level}");
 		}
 		Console.WriteLine();
-		Console.WriteLine("Presione Enter para salir...");
-		Console.ReadLine();
+		// Bucle de búsqueda por palabra clave (nombre o área)
+		while (true)
+		{
+			Console.Write("Ingrese palabra clave para filtrar por nombre o área (Enter para salir): ");
+			var input = Console.ReadLine();
+			if (string.IsNullOrWhiteSpace(input))
+			{
+				Console.WriteLine("Saliendo...");
+				break;
+			}
+			var kw = input.Trim();
+			var results = Courses.Where(c =>
+				c.Name.Contains(kw, StringComparison.OrdinalIgnoreCase) ||
+				c.Area.Contains(kw, StringComparison.OrdinalIgnoreCase)
+			).ToList();
+			Console.WriteLine();
+			if (results.Any())
+			{
+				Console.WriteLine($"Se encontraron {results.Count} curso(s):");
+				foreach (var r in results)
+				{
+					Console.WriteLine($"[{r.Id}] {r.Name} — {r.Area} — {r.DurationHours}h — {r.Level}");
+				}
+			}
+			else
+			{
+				Console.WriteLine("No se encontraron cursos que coincidan con la palabra clave.");
+			}
+			Console.WriteLine();
+		}
 	}
 }
